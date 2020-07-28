@@ -31,3 +31,14 @@ background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, F
 
 }
 
+.changeBtn{
+    background-color: #FF6699 !important;
+    color: teal;
+    
+}
+
+#heading{
+    font-family: 'Sunshiney', cursive;
+color: thistle;
+font-size: 4em;
+}

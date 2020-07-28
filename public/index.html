@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Sunshiney&display=swap" rel="stylesheet">
+    
     <title> To Do App </title>
 </head>
 
 <body>
 
     <section>
+
+        <h1 id="heading"> To-do App </h1>
             
         <div class="w3-bar">
-            <input type="text" id="note" value="" placeholder="write your tasks here">
-            <button class="w3-button w3-black" onclick="addNote()"> Add </button>
+            <input type="text" id="note" value="" placeholder="Write to-do tasks here">
+            <button class="w3-button w3-light-blue w3-hover-indigo" onclick="addNote()"> Add </button>
+            <button class="w3-button w3-amber w3-hover-deep-orange" onclick="delAll()"> Delete All </button>
         </div>
     
         <table id="savedNotes">
