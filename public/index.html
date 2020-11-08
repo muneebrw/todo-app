@@ -7,6 +7,30 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css2?family=Sunshiney&display=swap" rel="stylesheet">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAd-fNoi8XBuHmG70BctUYkSz4LErsW6Gc",
+    authDomain: "todo-app-23552.firebaseapp.com",
+    databaseURL: "https://todo-app-23552.firebaseio.com",
+    projectId: "todo-app-23552",
+    storageBucket: "todo-app-23552.appspot.com",
+    messagingSenderId: "933360662917",
+    appId: "1:933360662917:web:447cff2460abdb103cecec",
+    measurementId: "G-VJCQ6WBGZH"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+</script>
     
     <title> To Do App </title>
 </head>
